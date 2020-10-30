@@ -16,7 +16,7 @@ class AppleStorePriceFetcher():
         self.ALARM_CONTINUE = 0
         self.ALARM_EXIT = 1
         self.hist_data = None
-        self.hist_data_path = "/目标文件位置"
+        self.hist_data_path = "/Users/dengyuting/Documents/Projects/Spider/apple_store/hist_price"
 
     # 弹出消息
     def __window_alarm(self, msg, status=0):
